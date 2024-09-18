@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+nav,
+main {
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    /* This makes the main content grow to fill the available space */
+}
+
+ /* Footer styles */
+ .footer {
+     background-color: #a25423;
+     /* Match the brown color */
+     padding: 40px 0;
+     color: #fff;
+ }
+
+ .footer-container {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+
+ .footer-column {
+     flex: 1;
+     min-width: 200px;
+     margin: 0 20px;
+ }
+
+ .footer-column h3 {
+     font-size: 18px;
+     margin-bottom: 20px;
+     color: #fff;
+ }
+
+ .footer-column p {
+     color: #f0e0d0;
+     /* Slightly lighter text for better readability */
+     line-height: 1.5;
+ }
+
+ .footer-column ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .footer-column ul li {
+     margin-bottom: 10px;
+ }
+
+ .footer-column ul li a {
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s;
+ }
+
+ .footer-column ul li a:hover {
+     color: #f0e0d0;
+     /* Hover effect */
+ }
+
+ .footer-social a {
+     display: inline-block;
+     margin-right: 10px;
+     font-size: 20px;
+     color: #fff;
+     transition: color 0.3s;
+ }
+
+ .footer-social a:hover {
+     color: #f0e0d0;
+     /* Hover effect */
+ }
+
+ /* Responsive design for smaller screens */
+ @media (max-width: 768px) {
+     .footer-container {
+         flex-direction: column;
+     }
+
+     .footer-column {
+         margin-bottom: 20px;
+     }
+ }
