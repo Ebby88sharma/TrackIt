@@ -44,21 +44,21 @@
 
 #menu li a.active,
 #menu li a:hover {
-    background-color: #f28705;
+    background-color: #AB6538;
     color: #fff;
     border-radius: 5px;
 }
 
-.cta {
-    background-color: #f28705;
+/* .cta {
+    background-color: #AB6538;
     padding: 10px 20px;
     color: #fff;
     border-radius: 5px;
-}
+} */
 
-.cta:hover {
+/* .cta:hover {
     background-color: #e05d00;
-}
+} */
 
 /* Hamburger Icon */
 .nav-toggle {
@@ -163,7 +163,7 @@
 
 .hero-content .cta {
     display: inline-block;
-    background-color: #f28705;
+    background-color: #AB6538;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
