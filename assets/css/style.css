@@ -166,7 +166,7 @@
 
 .hero-content .cta {
     display: inline-block;
-    background-color: #a25423;
+    background-color: #f28705;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -339,14 +339,14 @@
 
 .choose-us-item i {
     font-size: 24px;
-    color: #f28705;
+    color: #a25423;
     margin-right: 10px;
 }
 
 .choose-us-item h3 {
     display: inline-block;
     font-size: 24px;
-    color: #f28705;
+    color: #a25423;
     margin-bottom: 10px;
     font-weight: bold;
 }
