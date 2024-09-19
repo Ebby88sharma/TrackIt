@@ -291,6 +291,115 @@
     }
 }
 
+/* Why Choose Us Section */
+.why-choose-us-section {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.why-choose-us-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.choose-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose-us-image {
+    flex: 1;
+    max-width: 500px;
+    padding: 0 20px;
+}
+
+.choose-us-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.choose-us-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.choose-us-item {
+    margin-bottom: 30px;
+}
+
+.choose-us-item i {
+    font-size: 24px;
+    color: #f28705;
+    margin-right: 10px;
+}
+
+.choose-us-item h3 {
+    display: inline-block;
+    font-size: 24px;
+    color: #f28705;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.choose-us-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Customer Service Section */
+.customer-service {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(0,0,1,60%);
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.customer-service p {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.customer-service i {
+    margin-right: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .choose-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choose-us-image,
+    .choose-us-content {
+        max-width: 100%;
+    }
+
+    .choose-us-content {
+        text-align: center;
+    }
+
+    .choose-us-item {
+        margin-bottom: 20px;
+    }
+}
+
+
 /* Testimonials Section */
 .testimonials-section {
     text-align: center;
